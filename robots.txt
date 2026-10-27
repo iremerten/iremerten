@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://iremerten.github.io/iremerten/sitemap.xml
+Sitemap: https://iremerten.com/sitemap.xml
