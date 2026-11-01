@@ -58,19 +58,15 @@ section.block > .wrap { padding-block: 5.5rem; }
 section.tint { background: var(--tint); }
 .prose { max-width: var(--measure); margin: 0 auto; display: grid; gap: 1.2rem; font-weight: 300; }
 .prose strong { font-weight: 400; }
-.facts { list-style: none; margin: 3.5rem auto 0; padding: 2rem 0 0; max-width: 52rem; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.5rem; align-items: start; text-align: center; }
+.facts { list-style: none; margin: 3.5rem auto 0; padding: 2rem 0 0; max-width: 52rem; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.5rem; text-align: center; }
 .facts b { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.3rem; }
 .facts span { font-size: .9rem; color: var(--muted); font-weight: 300; }
 
-.groups { list-style: none; margin: 0 auto; padding: 0; max-width: 60rem; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.5rem; align-items: start; text-align: center; }
+.groups { list-style: none; margin: 0 auto; padding: 0; max-width: 60rem; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.5rem; text-align: center; }
 .groups > li { display: grid; }
-.groups > li > a, .groups .box { display: grid; align-content: start; gap: .6rem; justify-items: center; padding: 1.6rem 1rem; border: 1px solid var(--line); background: var(--bg); text-decoration: none; transition: border-color .2s; }
-.groups > li > a:hover, .groups .box:hover { border-color: var(--gold); color: var(--ink); }
-.groups .box { padding: 0; align-content: start; }
-.groups .box > a { display: grid; gap: .6rem; justify-items: center; padding: 1.6rem 1rem 1rem; text-decoration: none; }
-.groups .sub { list-style: none; margin: 0 1rem; padding: .9rem 0 1.2rem; border-top: 1px solid var(--line); display: grid; gap: .45rem; }
-.groups .sub a { font-family: var(--font-display); font-size: 1.1rem; text-decoration: none; color: var(--ink); }
-.groups .sub a:hover { color: var(--gold-ink); }
+.groups > li > a { display: grid; align-content: center; gap: .6rem; justify-items: center; padding: 1.6rem 1rem; border: 1px solid var(--line); background: var(--bg); text-decoration: none; transition: border-color .2s; }
+.groups > li > a:hover { border-color: var(--gold); color: var(--ink); }
+.groups .detail { font-family: var(--font-display); font-style: italic; font-size: 1rem; color: var(--muted); line-height: 1.4; margin-top: -.2rem; }
 .groups .more { font-size: .68rem; letter-spacing: .26em; text-transform: uppercase; color: var(--gold-ink); }
 .topics { margin: 3.5rem auto 0; max-width: 46rem; text-align: center; font-family: var(--font-display); font-style: italic; font-size: 1.3rem; color: var(--muted); line-height: 1.9; }
 .topics span + span::before { content: "·"; color: var(--gold); margin: 0 .7rem; font-style: normal; }
