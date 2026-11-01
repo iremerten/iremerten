@@ -38,7 +38,7 @@ p { margin: 0; }
 header.site .wrap { padding-block: 2.5rem 0; display: grid; gap: 1.25rem; justify-items: center; text-align: center; }
 .logo { text-decoration: none; display: grid; gap: .25rem; }
 .logo strong { font-family: var(--font-display); font-weight: 400; font-size: 2rem; letter-spacing: .04em; line-height: 1.1; }
-.logo span { font-size: .9rem; letter-spacing: .08em; color: var(--gold-ink); }
+.logo span { font-size: .7rem; letter-spacing: .32em; color: var(--gold-ink); }
 nav ul { list-style: none; margin: 0; padding: .9rem 1rem; display: flex; flex-wrap: wrap; justify-content: center; gap: .3rem 2rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: .74rem; letter-spacing: .2em; text-transform: uppercase; }
 nav a { text-decoration: none; color: var(--muted); }
 nav a:hover { color: var(--ink); }
