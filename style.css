@@ -58,6 +58,9 @@ section.block > .wrap { padding-block: 5.5rem; }
 section.tint { background: var(--tint); }
 .prose { max-width: var(--measure); margin: 0 auto; display: grid; gap: 1.2rem; font-weight: 300; }
 .prose strong { font-weight: 400; }
+.prose h2 { font-size: clamp(1.6rem, 3vw, 2rem); margin-top: 1.8rem; }
+.prose .qa { display: grid; gap: .4rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.prose .qa h3 { font-size: 1.25rem; }
 .facts { list-style: none; margin: 3.5rem auto 0; padding: 2rem 0 0; max-width: 52rem; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.5rem; text-align: center; }
 .facts b { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.3rem; }
 .facts span { font-size: .9rem; color: var(--muted); font-weight: 300; }
